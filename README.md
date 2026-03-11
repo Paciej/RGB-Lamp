@@ -11,18 +11,16 @@ A dedicated mobile application is currently under development.
 
 > Schematic and board layout designed in Eagle CAD.
 
-![Eagle Schematic & PCB Layout](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampSchematic.png)
-![alt text](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampBoard.png)
+<img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampSchematic.png" alt="Eagle Schematic" width="500">
+<img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampBoard.png" alt="Eagle PCB Layout" width="500">
+
 ---
 
 ## Printed & Assembled PCB
 
 > Physical PCB after printing and soldering.
 
-![Printed PCB](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/EmptyBoard.jpg)
-
-
-![Soldered PCB](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/BoardSoldered.jpg)
+<img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/BoardSoldered.jpg" alt="Soldered PCB" width="200" hspace="50"> <img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/EmptyBoard.jpg" alt="Printed PCB" width="200" hspace="10">
 
 ---
 
@@ -31,7 +29,7 @@ A dedicated mobile application is currently under development.
 > The lamp is currently controlled using the **nRF Connect** mobile app.
 > Temperature readings are exposed as a BLE characteristic and visible directly in the app.
 
-<img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg" alt="nRF Connect - Temperature Reading" width="50%">
+<img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg" alt="nRF Connect - Temperature Reading" width="200">
 
 ---
 
@@ -46,22 +44,21 @@ A dedicated mobile application is currently under development.
 
 ---
 
-## ⚙️ Features
+##  Features
 
-- 🎨 **Full RGB color control** — set any color via BLE (values 0–255 per channel)
-- 🔆 **Brightness control** via MOSFET PWM (low-side configuration)
-- 🌡️ **Temperature monitoring** — DS18B20 sensor exposed as a BLE characteristic
-- 🎲 **Random color button** — applies a random color using ESP32's hardware RNG
-- 💡 **Lighting modes:**
-  - Static color
+-  **Full RGB color control** — set any color via BLE (values 0–255 per channel)
+-  **Brightness control** via MOSFET PWM (low-side configuration)
+-  **Temperature monitoring** — DS18B20 sensor exposed as a BLE characteristic
+-  **Random color button** — applies a random color using ESP32's hardware RNG
+-  **Lighting modes:**
   - Candle (flicker simulation)
   - Pulse (breathing effect)
   - Wave (smooth RGB transitions)
-- 📶 **BLE communication** — controlled via nRF Connect (dedicated app in development)
+-  **BLE communication** — controlled via nRF Connect (dedicated app in development)
 
 ---
 
-## 🔌 Pin Configuration (ESP32 DevKit)
+##  Pin Configuration (ESP32 DevKit)
 
 | Pin | Function | Component |
 |-----|----------|-----------|
@@ -73,7 +70,7 @@ A dedicated mobile application is currently under development.
 
 ---
 
-## 🧩 Hardware Components
+##  Hardware Components
 
 | Component | Description |
 |-----------|-------------|
@@ -85,12 +82,12 @@ A dedicated mobile application is currently under development.
 | **Resistor 33Ω 5W** | Custom current-limiting resistor |
 | **Push Button** | Physical control for random color |
 
-> 📦 The repository includes pre-built external libraries for ESP32 DevKit, DS18B20,
+>  The repository includes pre-built external libraries for ESP32 DevKit, DS18B20,
 > and the custom 33Ω 5W resistor component (Eagle library).
 
 ---
 
-## 📚 Libraries
+##  Libraries
 
 The project uses the following external libraries bundled in the repository:
 
@@ -115,7 +112,7 @@ The project uses the following external libraries bundled in the repository:
 
 ---
 
-## 📡 BLE Control (nRF Connect)
+##  BLE Control (nRF Connect)
 
 Until the dedicated app is released, the lamp can be fully controlled via **nRF Connect**:
 
@@ -128,7 +125,7 @@ Until the dedicated app is released, the lamp can be fully controlled via **nRF 
 
 ---
 
-## 🏫 Project Info
+##  Project Info
 
 - **University:** Silesian University of Technology
 - **Faculty:** Faculty of Automatic Control, Electronics and Computer Science
