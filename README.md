@@ -31,7 +31,6 @@ A dedicated mobile application is currently under development.
 > The lamp is currently controlled using the **nRF Connect** mobile app.
 > Temperature readings are exposed as a BLE characteristic and visible directly in the app.
 
-![nRF Connect — Temperature Reading](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg)
 <img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg" alt="nRF Connect - Temperature Reading" width="50%">
 
 ---
