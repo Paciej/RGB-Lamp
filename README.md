@@ -32,6 +32,7 @@ A dedicated mobile application is currently under development.
 > Temperature readings are exposed as a BLE characteristic and visible directly in the app.
 
 ![nRF Connect — Temperature Reading](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg)
+<img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg" alt="nRF Connect - Temperature Reading" width="50%">
 
 ---
 
@@ -39,10 +40,10 @@ A dedicated mobile application is currently under development.
 
 | Mode | Description | Link |
 |------|-------------|------|
-| 🎲 Random Color Button | Press the physical button to apply a random color (ESP32 hardware RNG) | [▶ Watch](https://github.com/user-attachments/assets/2d8df29d-432d-4193-9d58-128e2afa2573) |
-| 🕯️ Candle Mode | Simulates a flickering candle effect | [▶ Watch][https://github.com/user-attachments/assets/b84fc6cb-8e51-45d1-a9a4-e45dd6cf49fe ] |
-| 💓 Pulse Mode | Smooth brightness pulsing | [▶ Watch][https://github.com/user-attachments/assets/e08484a1-ccfc-4352-95d7-4a24032cc361] |
-| 🌈 Wave Mode | Smooth RGB color transitions | [▶ Watch][https://github.com/user-attachments/assets/66ebcfb8-80b2-4348-9ec0-0ef78081138d ] |
+| Random Color Button | Press the physical button to apply a random color (ESP32 hardware RNG) | [▶ Watch](https://github.com/user-attachments/assets/2d8df29d-432d-4193-9d58-128e2afa2573) |
+| Candle Mode | Simulates a flickering candle effect | [▶ Watch](https://github.com/user-attachments/assets/b84fc6cb-8e51-45d1-a9a4-e45dd6cf49fe) |
+| Pulse Mode | Smooth brightness pulsing | [▶ Watch](https://github.com/user-attachments/assets/e08484a1-ccfc-4352-95d7-4a24032cc361) |
+| Wave Mode | Smooth RGB color transitions | [▶ Watch](https://github.com/user-attachments/assets/66ebcfb8-80b2-4348-9ec0-0ef78081138d) |
 
 ---
 
@@ -100,7 +101,7 @@ The project uses the following external libraries bundled in the repository:
 
 ---
 
-## 🚀 Getting Started
+## Setup
 
 1. Open the project in **Arduino IDE** or **PlatformIO**
 2. Select board: `ESP32 Dev Module`
@@ -121,10 +122,9 @@ Until the dedicated app is released, the lamp can be fully controlled via **nRF 
 
 - Write `[R, G, B]` bytes to the color characteristic to set color
 - Write a mode byte to switch lighting modes:
-  - `0x00` — Static
-  - `0x01` — Candle
-  - `0x02` — Pulse
-  - `0x03` — Wave
+  - `Candle` — Candle
+  - `Pulse` — Pulse
+  - `Wave` — Wave
 - Read the temperature characteristic to monitor the LED temperature
 
 ---
@@ -133,5 +133,5 @@ Until the dedicated app is released, the lamp can be fully controlled via **nRF 
 
 - **University:** Silesian University of Technology
 - **Faculty:** Faculty of Automatic Control, Electronics and Computer Science
-- **Subject:** SMiW
+- **Subject:** Microprocessor and embedded systems
 - **Author:** Maciej Porębski
