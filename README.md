@@ -10,37 +10,66 @@ A dedicated mobile application is currently under development.
 ## PCB Design (Eagle)
 
 > Schematic and board layout designed in Eagle CAD.
-
+<p align="center">
 <img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampSchematic.png" alt="Eagle Schematic" width="500">
+</p>
+<p align="center">
 <img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampBoard.png" alt="Eagle PCB Layout" width="500">
-
+</p>
 ---
 
 ## Printed & Assembled PCB
 
 > Physical PCB after printing and soldering.
-
+<p align="center">
 <img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/BoardSoldered.jpg" alt="Soldered PCB" width="200" hspace="50"> <img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/EmptyBoard.jpg" alt="Printed PCB" width="200" hspace="10">
-
+</p>
 ---
 
 ## Control via nRF Connect
 
 > The lamp is currently controlled using the **nRF Connect** mobile app.
 > Temperature readings are exposed as a BLE characteristic and visible directly in the app.
-
+<p align="center">
 <img src="https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg" alt="nRF Connect - Temperature Reading" width="200">
+</p>
+---
+
+##  Lighting Modes
+
+### Random Color — Physical Button
+> Press the physical button to apply a random color using ESP32's hardware RNG.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d0e5335c-f05f-49c5-abbe-86fba21ef49e" alt="Random Color Button Demo" width="300">
+</p>
 
 ---
 
-## Demo Videos
+### Candle Mode
+> Simulates a realistic flickering candle effect.
 
-| Mode | Description | Link |
-|------|-------------|------|
-| Random Color Button | Press the physical button to apply a random color (ESP32 hardware RNG) | [▶ Watch](https://github.com/user-attachments/assets/2d8df29d-432d-4193-9d58-128e2afa2573) |
-| Candle Mode | Simulates a flickering candle effect | [▶ Watch](https://github.com/user-attachments/assets/b84fc6cb-8e51-45d1-a9a4-e45dd6cf49fe) |
-| Pulse Mode | Smooth brightness pulsing | [▶ Watch](https://github.com/user-attachments/assets/e08484a1-ccfc-4352-95d7-4a24032cc361) |
-| Wave Mode | Smooth RGB color transitions | [▶ Watch](https://github.com/user-attachments/assets/66ebcfb8-80b2-4348-9ec0-0ef78081138d) |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6ac1b2ec-f5e1-466f-b5b7-0fba0345dcab" alt="Candle Mode Demo" width="300">
+</p>
+
+---
+
+### Pulse Mode
+> Smooth brightness breathing effect.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5fb39220-2c33-4e68-8de9-4cd76b4c2ff5" alt="Pulse Mode Demo" width="300">
+</p>
+
+---
+
+### Wave Mode
+> Seamless smooth transitions across the full RGB spectrum.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/83c15daa-1971-4541-ba8f-95a60c9430e5" alt="Wave Mode Demo" width="300">
+</p>
 
 ---
 
