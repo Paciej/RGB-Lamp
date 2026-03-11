@@ -41,7 +41,7 @@ A dedicated mobile application is currently under development.
 > Press the physical button to apply a random color using ESP32's hardware RNG.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d0e5335c-f05f-49c5-abbe-86fba21ef49e" alt="Random Color Button Demo" width="300">
+  <img src="https://github.com/user-attachments/assets/1ca8d6ae-3017-4212-8292-e95a26128fe6" alt="Random Color Button Demo" width="300">
 </p>
 
 ---
@@ -50,7 +50,7 @@ A dedicated mobile application is currently under development.
 > Simulates a realistic flickering candle effect.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6ac1b2ec-f5e1-466f-b5b7-0fba0345dcab" alt="Candle Mode Demo" width="300">
+  <img src="https://github.com/user-attachments/assets/360fdc14-0a77-4107-a589-a153b81df355" alt="Candle Mode Demo" width="300">
 </p>
 
 ---
@@ -59,7 +59,7 @@ A dedicated mobile application is currently under development.
 > Smooth brightness breathing effect.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5fb39220-2c33-4e68-8de9-4cd76b4c2ff5" alt="Pulse Mode Demo" width="300">
+  <img src="https://github.com/user-attachments/assets/5d3f25d7-855c-486d-9b48-8a42fe558902" alt="Pulse Mode Demo" width="300">
 </p>
 
 ---
@@ -68,7 +68,7 @@ A dedicated mobile application is currently under development.
 > Seamless smooth transitions across the full RGB spectrum.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/83c15daa-1971-4541-ba8f-95a60c9430e5" alt="Wave Mode Demo" width="300">
+  <img src="https://github.com/user-attachments/assets/1e8b393f-a74e-49be-bfe6-844565e4a7bd" alt="Wave Mode Demo" width="300">
 </p>
 
 ---
