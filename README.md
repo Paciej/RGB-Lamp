@@ -11,7 +11,7 @@ A dedicated mobile application is currently under development.
 
 > Schematic and board layout designed in Eagle CAD.
 
-![Eagle Schematic & PCB Layout][IMAGE_LINK: (https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampSchematic.png)]
+![Eagle Schematic & PCB Layout](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampSchematic.png)
 ![alt text](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/RGBLampBoard.png)
 ---
 
@@ -19,10 +19,10 @@ A dedicated mobile application is currently under development.
 
 > Physical PCB after printing and soldering.
 
-![Printed PCB][IMAGE_LINK: (https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/EmptyBoard.jpg)]
+![Printed PCB](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/EmptyBoard.jpg)
 
 
-![Soldered PCB][IMAGE_LINK: (https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/BoardSoldered.jpg)]
+![Soldered PCB](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/BoardSoldered.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ A dedicated mobile application is currently under development.
 > The lamp is currently controlled using the **nRF Connect** mobile app.
 > Temperature readings are exposed as a BLE characteristic and visible directly in the app.
 
-![nRF Connect — Temperature Reading][IMAGE_LINK: (https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg)]
+![nRF Connect — Temperature Reading](https://github.com/Paciej/RGB-Lamp/blob/main/hardware/Pictures/Notify.jpg)
 
 ---
 
@@ -39,7 +39,7 @@ A dedicated mobile application is currently under development.
 
 | Mode | Description | Link |
 |------|-------------|------|
-| 🎲 Random Color Button | Press the physical button to apply a random color (ESP32 hardware RNG) | [▶ Watch][https://github.com/user-attachments/assets/2d8df29d-432d-4193-9d58-128e2afa2573] |
+| 🎲 Random Color Button | Press the physical button to apply a random color (ESP32 hardware RNG) | [▶ Watch](https://github.com/user-attachments/assets/2d8df29d-432d-4193-9d58-128e2afa2573) |
 | 🕯️ Candle Mode | Simulates a flickering candle effect | [▶ Watch][https://github.com/user-attachments/assets/b84fc6cb-8e51-45d1-a9a4-e45dd6cf49fe ] |
 | 💓 Pulse Mode | Smooth brightness pulsing | [▶ Watch][https://github.com/user-attachments/assets/e08484a1-ccfc-4352-95d7-4a24032cc361] |
 | 🌈 Wave Mode | Smooth RGB color transitions | [▶ Watch][https://github.com/user-attachments/assets/66ebcfb8-80b2-4348-9ec0-0ef78081138d ] |
